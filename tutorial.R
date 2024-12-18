@@ -8,6 +8,7 @@ libs <- c(
 invisible(lapply(libs, library, character.only = T))
 
 # europe
+# test change
 
 europe_sf <- giscoR::gisco_get_countries(
   region = "Europe",
